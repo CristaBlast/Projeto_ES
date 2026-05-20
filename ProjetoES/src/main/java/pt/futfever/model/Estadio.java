@@ -44,6 +44,11 @@ public class Estadio {
 
     @Override
     public String toString() {
-        return nome + " - " + cidade;
+        return "Estadio{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", capacidade=" + capacidade +
+                '}';
     }
 }

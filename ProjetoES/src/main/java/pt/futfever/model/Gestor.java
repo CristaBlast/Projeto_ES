@@ -1,9 +1,12 @@
 package pt.futfever.model;
 
-public class Gestor extends User {
+public class Gestor {
+    private int id;
+    private String nome;
 
-    public Gestor(int id, String nome, String email, String password) {
-        super(id, nome, email, password);
+    public Gestor(int id, String nome) {
+        this.id = id;
+        this.nome = nome;
     }
 
     public Selecao criarSelecao(int id, String nome, String pais) {
@@ -22,8 +25,16 @@ public class Gestor extends User {
         return new CentroDeEstagio(id, nome, localizacao);
     }
 
-    public void gerirVendaBilhetes() {
-        System.out.println("Gestor a gerir venda de bilhetes...");
+    public Bilhete venderBilhete(
+            int id,
+            Jogos jogo,
+            String numeroCartaoCidadao,
+            String numeroTelefone,
+            double preco,
+            String lugar
+    ) {
+        Comprador comprador = new Comprador(numeroCartaoCidadao, numeroTelefone);
+        return new Bilhete(id, jogo, comprador, preco, lugar);
     }
 
     public void definirCalendarioJogos() {
@@ -31,10 +42,30 @@ public class Gestor extends User {
     }
 
     public void atribuirEquipaArbitragem() {
-        System.out.println("Gestor a atribuir equipa de arbitragem aos jogos...");
+        System.out.println("Gestor a atribuir equipa de arbitragem...");
+    }
+
+    public void gerirVendaBilhetes() {
+        System.out.println("Gestor a gerir venda de bilhetes...");
     }
 
     public void deslocarEquipa() {
         System.out.println("Gestor a deslocar equipa...");
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Gestor{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                '}';
     }
 }

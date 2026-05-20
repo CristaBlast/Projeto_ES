@@ -34,6 +34,10 @@ public class Treinador {
 
     @Override
     public String toString() {
-        return nome + " - " + nacionalidade;
+        return "Treinador{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", nacionalidade='" + nacionalidade + '\'' +
+                '}';
     }
 }

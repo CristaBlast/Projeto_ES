@@ -75,6 +75,10 @@ public class Selecao {
 
     @Override
     public String toString() {
-        return nome + " - " + pais;
+        return "Selecao{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", pais='" + pais + '\'' +
+                '}';
     }
 }

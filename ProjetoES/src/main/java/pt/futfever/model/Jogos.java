@@ -11,7 +11,14 @@ public class Jogos {
     private LocalDate data;
     private LocalTime hora;
 
-    public Jogos(int id, Selecao selecao, Arbitro arbitro, Estadio estadio, LocalDate data, LocalTime hora) {
+    public Jogos(
+            int id,
+            Selecao selecao,
+            Arbitro arbitro,
+            Estadio estadio,
+            LocalDate data,
+            LocalTime hora
+    ) {
         this.id = id;
         this.selecao = selecao;
         this.arbitro = arbitro;
@@ -50,6 +57,13 @@ public class Jogos {
 
     @Override
     public String toString() {
-        return selecao.getNome() + " - " + data + " às " + hora + " no " + estadio.getNome();
+        return "Jogos{" +
+                "id=" + id +
+                ", selecao=" + selecao.getNome() +
+                ", arbitro=" + arbitro.getNome() +
+                ", estadio=" + estadio.getNome() +
+                ", data=" + data +
+                ", hora=" + hora +
+                '}';
     }
 }

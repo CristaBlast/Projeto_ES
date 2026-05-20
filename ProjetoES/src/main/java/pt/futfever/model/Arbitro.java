@@ -38,6 +38,10 @@ public class Arbitro {
 
     @Override
     public String toString() {
-        return nome + " - " + nacionalidade;
+        return "Arbitro{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", nacionalidade='" + nacionalidade + '\'' +
+                '}';
     }
 }

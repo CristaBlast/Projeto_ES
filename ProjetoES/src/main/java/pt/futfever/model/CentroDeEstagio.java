@@ -34,6 +34,10 @@ public class CentroDeEstagio {
 
     @Override
     public String toString() {
-        return nome + " - " + localizacao;
+        return "CentroDeEstagio{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", localizacao='" + localizacao + '\'' +
+                '}';
     }
 }
