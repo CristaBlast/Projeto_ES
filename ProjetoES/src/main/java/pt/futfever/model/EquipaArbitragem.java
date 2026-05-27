@@ -1,24 +1,25 @@
 package pt.futfever.model;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
-public class Arbitro {
+public class EquipaArbitragem {
     private int id;
     private String nome;
     private String nacionalidade;
-    private List<Jogos> jogos;
+    private List<Jogo> jogos;
 
-    public Arbitro(int id, String nome, String nacionalidade) {
+    public EquipaArbitragem(int id, String nome, String nacionalidade) {
         this.id = id;
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.jogos = new ArrayList<>();
     }
 
-    public void adicionarJogo(Jogos jogo) {
+    public void adicionarJogo(Jogo jogo) {
         jogos.add(jogo);
-    }
+    } //TODO must be verified nationality of the judge before being added to the game
 
     public int getId() {
         return id;
@@ -32,16 +33,12 @@ public class Arbitro {
         return nacionalidade;
     }
 
-    public List<Jogos> getJogos() {
+    public List<Jogo> getJogos() {
         return jogos;
     }
 
-    @Override
-    public String toString() {
-        return "Arbitro{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", nacionalidade='" + nacionalidade + '\'' +
-                '}';
+    public Boolean disponibilidade(Date data){
+        return true;
     }
+
 }

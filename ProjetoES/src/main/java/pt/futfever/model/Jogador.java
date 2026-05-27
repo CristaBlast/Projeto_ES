@@ -1,57 +1,46 @@
 package pt.futfever.model;
 
+import java.util.Date;
+
 public class Jogador {
-    private int id;
-    private String nome;
-    private int idade;
+    private int numCamisola;
     private String posicao;
-    private int numero;
+    private Date dataNascimento;
+    private String nacionalidade;
     private Selecao selecao;
 
-    public Jogador(int id, String nome, int idade, String posicao, int numero) {
-        this.id = id;
-        this.nome = nome;
-        this.idade = idade;
+    public Jogador(int numCamisola, String posicao, Date dataNascimento, String nacionalidade, Selecao selecao) {
+        this.numCamisola = numCamisola;
         this.posicao = posicao;
-        this.numero = numero;
-    }
-
-    public void associarSelecao(Selecao selecao) {
+        this.dataNascimento = dataNascimento;
+        this.nacionalidade = nacionalidade;
         this.selecao = selecao;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public int getIdade() {
-        return idade;
+    public int getNumCamisola() {
+        return numCamisola;
     }
 
     public String getPosicao() {
         return posicao;
     }
 
-    public int getNumero() {
-        return numero;
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public String getNacionalidade() {
+        return nacionalidade;
     }
 
     public Selecao getSelecao() {
         return selecao;
     }
 
-    @Override
-    public String toString() {
-        return "Jogador{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", idade=" + idade +
-                ", posicao='" + posicao + '\'' +
-                ", numero=" + numero +
-                '}';
+    //TODO QRCODE IF NEEDED XD
+
+    public Boolean validarAcesso()
+    {
+        return true;
     }
 }

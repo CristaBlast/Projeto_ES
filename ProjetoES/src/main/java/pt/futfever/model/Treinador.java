@@ -1,43 +1,22 @@
 package pt.futfever.model;
 
-public class Treinador {
-    private int id;
-    private String nome;
-    private String nacionalidade;
-    private Selecao selecao;
+import java.util.Date;
 
-    public Treinador(int id, String nome, String nacionalidade) {
-        this.id = id;
-        this.nome = nome;
-        this.nacionalidade = nacionalidade;
+public class Treinador extends User{
+    private Date datanascimento;
+    private int anosExperiencia;
+
+    public Treinador(Date datanascimento, int anosExperiencia) {
+        super();
+        this.datanascimento = datanascimento;
+        this.anosExperiencia = anosExperiencia;
     }
 
-    public void associarSelecao(Selecao selecao) {
-        this.selecao = selecao;
+    public Date getDatanascimento() {
+        return datanascimento;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public String getNacionalidade() {
-        return nacionalidade;
-    }
-
-    public Selecao getSelecao() {
-        return selecao;
-    }
-
-    @Override
-    public String toString() {
-        return "Treinador{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", nacionalidade='" + nacionalidade + '\'' +
-                '}';
+    public int getAnosExperiencia() {
+        return anosExperiencia;
     }
 }
