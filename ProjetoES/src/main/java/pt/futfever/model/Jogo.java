@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Date;
 
-public class Jogo {
+public class Jogo extends Bilhete{
     private int id;
     private Date dataHora;
     private Selecao selecaoCasa;

@@ -2,7 +2,7 @@ package pt.futfever.model;
 
 import java.util.Date;
 
-public class Jogador {
+public class Jogador extends User{
     private int numCamisola;
     private String posicao;
     private Date dataNascimento;

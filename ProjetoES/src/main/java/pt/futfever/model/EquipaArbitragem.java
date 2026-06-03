@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class EquipaArbitragem {
+public class EquipaArbitragem extends Jogo{
     private int id;
     private String nome;
     private String nacionalidade;

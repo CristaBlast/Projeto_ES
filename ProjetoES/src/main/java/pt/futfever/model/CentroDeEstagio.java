@@ -1,6 +1,6 @@
 package pt.futfever.model;
 
-public class CentroDeEstagio {
+public class CentroDeEstagio extends Selecao{
     private int id;
     private String nome;
     private String localizacao;

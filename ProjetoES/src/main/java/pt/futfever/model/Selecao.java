@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Selecao {
+public class Selecao extends Deslocacao{
     private int id;
     private String nome;
     private boolean apurada;

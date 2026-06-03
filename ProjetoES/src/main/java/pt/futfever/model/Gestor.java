@@ -1,6 +1,6 @@
 package pt.futfever.model;
 
-public class Gestor {
+public class Gestor extends User{
     private String username;
     private String passwordHash;
 

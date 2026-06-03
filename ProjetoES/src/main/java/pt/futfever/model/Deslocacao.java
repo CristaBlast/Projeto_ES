@@ -18,6 +18,9 @@ public class Deslocacao {
         this.selecao = selecao;
     }
 
+    public Deslocacao() {
+    }
+
     public String getOrigem() {
         return origem;
     }

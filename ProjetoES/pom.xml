@@ -7,8 +7,28 @@
     <groupId>pt.ipleiria.estg.dei.ei.esoft</groupId>
     <artifactId>ProjetoES</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
+    <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>core</artifactId>
+        <version>3.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>javase</artifactId>
+        <version>3.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>net.sf.barcode4j</groupId>
+        <artifactId>barcode4j</artifactId>
+        <version>2.1</version>
+    </dependency>
+    <dependency>
+        <groupId>net.sourceforge.barbecue</groupId>
+        <artifactId>barbecue</artifactId>
+        <version>1.5-beta1</version>
+    </dependency>
+
 
         <maven.compiler.source>26</maven.compiler.source>
         <maven.compiler.target>26</maven.compiler.target>

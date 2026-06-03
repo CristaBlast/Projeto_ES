@@ -1,6 +1,6 @@
 package pt.futfever.model;
 
-public class Funcionario {
+public class Funcionario extends User{
     private String tipo;
 
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Estadio {
+public class Estadio extends Jogo{
     private int id;
     private String nome;
     private double latitude;
