@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b118a759-4d64-43e4-af54-6282e095ab0f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Entrega_02/~$sos_ICONIX_1.2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/Base.form" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/Base.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Bilhete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Bilhete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/CentroDeEstagio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/CentroDeEstagio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Deslocacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Deslocacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/EquipaArbitragem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/EquipaArbitragem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Estadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Estadio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Gestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Gestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Grupo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Grupo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Qrcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Qrcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Selecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Selecao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Treinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/Treinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/UtilizadorPublico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjetoES/src/main/java/pt/futfever/model/UtilizadorPublico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../prognostico_retro_scoreboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../../prognostico_retro_scoreboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../prototype_torneio_apple_style_dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../prototype_torneio_apple_style_dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../~$quisitos.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FKDtTqjJzOw27QFRooig1vnYrz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "last_opened_file_path": "C:/Users/ana_i/Documents/GitHub/Projeto_ES/design_FutFeverJava/FutFeverJava/out",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b118a759-4d64-43e4-af54-6282e095ab0f" name="Changes" comment="" />
+      <created>1781815081564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781815081564</updated>
+      <workItem from="1781815082722" duration="10000" />
+    </task>
+    <servers />
+  </component>
+</project>
