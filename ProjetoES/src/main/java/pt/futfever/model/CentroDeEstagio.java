@@ -1,6 +1,6 @@
 package pt.futfever.model;
 
-public class CentroDeEstagio extends Selecao{
+public class CentroDeEstagio {
     private int id;
     private String nome;
     private String localizacao;
@@ -14,6 +14,7 @@ public class CentroDeEstagio extends Selecao{
 
     public void associarSelecao(Selecao selecao) {
         this.selecao = selecao;
+        selecao.setCentroDeEstagio(this);
     }
 
     public int getId() {

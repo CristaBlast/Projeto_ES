@@ -2,14 +2,16 @@ package pt.futfever.model;
 
 import java.util.Date;
 
-public class Jogador extends User{
+public class Jogador extends User {
     private int numCamisola;
     private String posicao;
     private Date dataNascimento;
     private String nacionalidade;
     private Selecao selecao;
 
-    public Jogador(int numCamisola, String posicao, Date dataNascimento, String nacionalidade, Selecao selecao) {
+    public Jogador(int id, String name, String email, int numCamisola, String posicao,
+                    Date dataNascimento, String nacionalidade, Selecao selecao) {
+        super(id, name, email);
         this.numCamisola = numCamisola;
         this.posicao = posicao;
         this.dataNascimento = dataNascimento;
@@ -37,10 +39,15 @@ public class Jogador extends User{
         return selecao;
     }
 
-    //TODO QRCODE IF NEEDED XD
+    public void setSelecao(Selecao selecao) {
+        this.selecao = selecao;
+    }
 
-    public Boolean validarAcesso()
-    {
-        return true;
+    /**
+     * Valida o acesso do jogador às instalações (estádio/centro de estágio),
+     * confirmando que pertence a uma seleção registada.
+     */
+    public Boolean validarAcesso() {
+        return selecao != null;
     }
 }
