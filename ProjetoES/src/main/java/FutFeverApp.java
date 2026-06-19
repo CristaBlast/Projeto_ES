@@ -603,7 +603,7 @@ public class FutFeverApp extends JFrame {
 
     private JButton button(String s) {
         JButton b = new JButton(s);
-        b.setForeground(Color.WHITE);
+        b.setForeground(GREEN);
         b.setBackground(GREEN);
         b.setFocusPainted(false);
         b.setBorder(new EmptyBorder(11, 16, 11, 16));
@@ -626,7 +626,7 @@ public class FutFeverApp extends JFrame {
     private JButton navButton(String s) {
         JButton b = new JButton(s);
         b.setHorizontalAlignment(SwingConstants.LEFT);
-        b.setForeground(new Color(215, 242, 231));
+        b.setForeground(GREEN);
         b.setBackground(DARK);
         b.setBorder(new EmptyBorder(12, 14, 12, 14));
         b.setFocusPainted(false);
@@ -635,6 +635,7 @@ public class FutFeverApp extends JFrame {
 
     private JTextField input(String ph) {
         JTextField f = new JTextField(ph);
+        f.setForeground(GREEN);
         f.setBorder(new CompoundBorder(new LineBorder(LINE), new EmptyBorder(10, 10, 10, 10)));
         return f;
     }
