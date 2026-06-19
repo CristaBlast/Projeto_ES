@@ -32,6 +32,20 @@ public class Selecao {
         this.deslocacoes = new ArrayList<>();
     }
 
+    public Selecao(int id, String nome, List<Jogador> jogadores, Treinador treinador) {
+        this.id = id;
+        this.nome = nome;
+        this.apurada = false;
+        this.jogadores = new ArrayList<>(jogadores);
+        this.treinador = treinador;
+        this.jogos = new ArrayList<>();
+        this.deslocacoes = new ArrayList<>();
+        // Ligar cada jogador de volta a esta seleção
+        for (Jogador j : this.jogadores) {
+            j.setSelecao(this);
+        }
+    }
+
     public int getId() {
         return id;
     }

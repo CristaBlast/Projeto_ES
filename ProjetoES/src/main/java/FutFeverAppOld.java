@@ -1,13 +1,10 @@
-package futfever;
-
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.io.File;
 import java.util.*;
 
-public class FutFeverApp extends JFrame {
+public class FutFeverAppOld extends JFrame {
     private final CardLayout cards = new CardLayout();
     private final JPanel root = new JPanel(cards);
     // Modelo simples para representar jogos
@@ -23,7 +20,7 @@ public class FutFeverApp extends JFrame {
     private final Color MUTED = new Color(107,114,128);
     private final ImageIcon LOGO;
 
-    public FutFeverApp() {
+    public FutFeverAppOld() {
         LOGO = loadLogo();
         initGames();
         initTeams();
@@ -73,7 +70,7 @@ public class FutFeverApp extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             try { UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); } catch(Exception ignored) {}
-            new FutFeverApp().setVisible(true);
+            new FutFeverAppOld().setVisible(true);
         });
     }
 
